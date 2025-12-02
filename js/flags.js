@@ -18,7 +18,7 @@ function sha256(str) {
 }
 
 const FLAGS = {
-    "cryptoA": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "cryptoA": "40c0d6be1bda85bcf15af0ba9c8c7ce81f220e66d3e4f9fcd6a8b27f6e750f72",
     "cryptoB": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
     "webA":    "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
     "webB":    "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
