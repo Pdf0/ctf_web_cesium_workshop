@@ -1,0 +1,23 @@
+
+<html class="dark">
+<head>
+<meta charset="UTF-8">
+<script src="https://cdn.tailwindcss.com"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.1.1/crypto-js.min.js"></script>
+<script src="/js/flags.js"></script>
+</head>
+<body class="bg-gray-900 text-gray-200 p-10 flex flex-col items-center justify-center">
+<h1 class="text-3xl font-bold mb-4">Crypto</h1>
+
+<p class="mb-4">Recebemos uma mensagem encriptada. O módulo é construído a partir de números primos suficientemente grandes para que a sua fatoração não seja uma opção, pelo menos não hoje. Veja se consegue compreender os números e revelar a bandeira.</p>
+<p class="mb-4">Faz download da <a href="mensagem.txt" download class="text-blue-400 hover:text-blue-300">mensagem</a>.</p>
+<p class="mb-4">Dica: Descobre mais sobre o RSA, como funciona, quais os seus parâmetros e os ataques às suas más práticas.</p>
+
+
+<input id="flag_in" type="text" placeholder="Insere a flag" class="text-black p-2 rounded">
+<button onclick="checkFlag('crypto2', 'flag_in', 'result')" class="bg-blue-500 hover:bg-blue-600 p-2 ml-2 mt-4 rounded">Verificar</button>
+
+<div id="result" class="mt-4"></div>
+
+</body>
+</html>
